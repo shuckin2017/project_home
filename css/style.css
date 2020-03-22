@@ -361,4 +361,118 @@ textarea {
   -webkit-appearance: button;
   font: inherit;
 }
+
+.padding-site {
+  padding: 0 375px;
+}
+
+.wrapper {
+  max-width: 1920px;
+}
+
+.main_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 80px;
+}
+
+.main_nav-logo {
+  display: block;
+}
+
+.main_nav-name {
+  color: #284157;
+  font-family: "Geometria", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.main_nav-name span {
+  font-family: "Geometria-Bold", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.16px;
+}
+
+.main_nav-time-mode {
+  color: #284157;
+  text-align: right;
+  font-family: "Geometria", sans-serif;
+}
+
+.main_nav-time-mode:after {
+  width: 18px;
+  height: 18px;
+  background-image: url("../img/icon-clock.png");
+}
+
+.main_nav-time-mode span {
+  display: block;
+  font-family: "Geometria-Bold", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.16px;
+}
+
+.main_nav-phone {
+  color: #284157;
+  text-align: right;
+  font-size: 12px;
+  font-family: "Geometria", sans-serif;
+}
+
+.main_nav-phone span {
+  display: block;
+  font-size: 15px;
+  font-family: "Geometria-Bold", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.16px;
+}
+
+.main_nav-btn {
+  width: 170px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #ffb111;
+  background-image: linear-gradient(-221deg, #fb2b2b 0%, #f86c26 100%);
+  font-family: "Geometria-Bold", sans-serif;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main_cont {
+  position: absolute;
+}
+
+.main_header-title {
+  font-family: "Geometria", sans-serif;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+}
+
+.main_header-banner {
+  display: block;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+}
 /*# sourceMappingURL=style.css.map */

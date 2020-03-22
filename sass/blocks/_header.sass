@@ -1,0 +1,81 @@
+
+.wrapper 
+    max-width: 1920px
+
+.main_nav
+    display: flex
+    align-items: center
+    justify-content: space-between
+    min-height: 80px
+
+.main_nav-logo
+    display: block
+
+.main_nav-name
+    color: $color-primary
+    font-family: $font-family
+    font-size: 16px
+    font-weight: 400
+    line-height: 19px
+    text-transform: uppercase
+    span 
+        font-family: $font-bold
+        font-weight: 700
+        letter-spacing: 0.16px
+
+.main_nav-time-mode 
+    color: $color-primary
+    text-align: right
+    font-family: $font-family   
+    &:after 
+        width: 18px
+        height: 18px
+        background-image: url('../img/icon-clock.png') 
+    span 
+        display: block
+        font-family: $font-bold
+        font-weight: 700
+        letter-spacing: 0.16px
+
+.main_nav-phone 
+    color: $color-primary
+    text-align: right
+    font-size: 12px
+    font-family: $font-family
+    span
+        display: block
+        font-size: 15px
+        font-family: $font-bold
+        font-weight: 700
+        letter-spacing: 0.16px
+
+.main_nav-btn    
+    width: 170px
+    height: 50px
+    border-radius: 5px
+    background-color: #ffb111
+    background-image: linear-gradient(-221deg, #fb2b2b 0%, #f86c26 100%)
+    font-family: $font-bold
+    color: $color-white
+    display: flex
+    align-items: center
+    justify-content: center
+
+.main_cont
+    position: absolute
+
+.main_header 
+    &-title
+        font-family: $font-family
+        color: $color-white
+        font-size: 36px
+        font-weight: 700
+        line-height: 32px
+        letter-spacing: 0.36px
+        
+    &-banner 
+        display: block
+        position: relative
+        top: 0px
+        right: 0px
+        z-index: -1
