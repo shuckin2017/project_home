@@ -8,8 +8,14 @@
     justify-content: space-between
     min-height: 80px
 
+.main_nav-company 
+    display: flex
+    align-items: center
+    justify-content: space-between
+
 .main_nav-logo
     display: block
+    padding: 0 20px 0 0
 
 .main_nav-name
     color: $color-primary
@@ -37,11 +43,18 @@
         font-weight: 700
         letter-spacing: 0.16px
 
+.main_nav-right-block
+    display: flex
+    align-items: center
+    justify-content: space-between
+
 .main_nav-phone 
     color: $color-primary
     text-align: right
     font-size: 12px
     font-family: $font-family
+    padding: 0 30px 10px 0 
+
     span
         display: block
         font-size: 15px
@@ -62,20 +75,59 @@
     justify-content: center
 
 .main_cont
-    position: absolute
-
+    position: relative
+.main_header-content 
+    display: flex
+    justify-content: space-between
 .main_header 
+    color: $color-white
     &-title
-        font-family: $font-family
-        color: $color-white
+        font-family: $font-bold
         font-size: 36px
         font-weight: 700
         line-height: 32px
         letter-spacing: 0.36px
-        
+        padding: 0 0 40px 0
+    &-content
+        position: absolute
+        top: 70px
+    &-discription
+        width: 317px
+        font-family: $font-medium     
+        font-size: 18px
+        line-height: 26px
+        padding: 0 0 40px 0
+    &-sub-title
+        width: 150px
+        font-family: $font-family
+        line-height: 24px
+        font-size: 16px
     &-banner 
         display: block
-        position: relative
-        top: 0px
-        right: 0px
         z-index: -1
+.main_header-right-block 
+    display: flex
+    
+    flex-direction: column
+    min-height: 500px
+    &-bottom 
+        display: flex
+        align-self: flex-end       
+        &-list
+            font-size: 14px
+            width: 125px
+            text-align: left
+            font-weight: 500
+            font-family: $font-medium
+            padding: 0 100px 0 0
+            span 
+                font-family: $font-bold
+                padding: 10px 0 0 0
+                display: block
+            &:nth-child(3)
+                padding: 0
+.main_header
+    &-left-block
+        
+        
+    

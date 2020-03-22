@@ -383,8 +383,21 @@ textarea {
   min-height: 80px;
 }
 
+.main_nav-company {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .main_nav-logo {
   display: block;
+  padding: 0 20px 0 0;
 }
 
 .main_nav-name {
@@ -421,11 +434,24 @@ textarea {
   letter-spacing: 0.16px;
 }
 
+.main_nav-right-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .main_nav-phone {
   color: #284157;
   text-align: right;
   font-size: 12px;
   font-family: "Geometria", sans-serif;
+  padding: 0 30px 10px 0;
 }
 
 .main_nav-phone span {
@@ -456,23 +482,91 @@ textarea {
 }
 
 .main_cont {
-  position: absolute;
+  position: relative;
+}
+
+.main_header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main_header {
+  color: #ffffff;
 }
 
 .main_header-title {
-  font-family: "Geometria", sans-serif;
-  color: #ffffff;
+  font-family: "Geometria-Bold", sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 32px;
   letter-spacing: 0.36px;
+  padding: 0 0 40px 0;
+}
+
+.main_header-content {
+  position: absolute;
+  top: 70px;
+}
+
+.main_header-discription {
+  width: 317px;
+  font-family: "Geometria-Medium", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 0 0 40px 0;
+}
+
+.main_header-sub-title {
+  width: 150px;
+  font-family: "Geometria", sans-serif;
+  line-height: 24px;
+  font-size: 16px;
 }
 
 .main_header-banner {
   display: block;
-  position: relative;
-  top: 0px;
-  right: 0px;
   z-index: -1;
+}
+
+.main_header-right-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 500px;
+}
+
+.main_header-right-block-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.main_header-right-block-bottom-list {
+  font-size: 14px;
+  width: 125px;
+  text-align: left;
+  font-weight: 500;
+  font-family: "Geometria-Medium", Helvetica, sans-serif;
+  padding: 0 100px 0 0;
+}
+
+.main_header-right-block-bottom-list span {
+  font-family: "Geometria-Bold", sans-serif;
+  padding: 10px 0 0 0;
+  display: block;
+}
+
+.main_header-right-block-bottom-list:nth-child(3) {
+  padding: 0;
 }
 /*# sourceMappingURL=style.css.map */
