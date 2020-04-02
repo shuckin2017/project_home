@@ -1,0 +1,14 @@
+{
+  "name": "gulp-start",
+  "version": "1.0.0",
+  "description": "start gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maxim Shuckin",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.26.3"
+  }
+}
