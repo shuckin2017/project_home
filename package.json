@@ -1,14 +1,20 @@
 {
-  "name": "gulp-start",
+  "name": "project_home",
   "version": "1.0.0",
   "description": "start gulp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp"
   },
   "author": "Maxim Shuckin",
   "license": "ISC",
   "dependencies": {
+    "normalize": "^0.3.1",
     "sass": "^1.26.3"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-sass": "^4.0.2"
   }
 }

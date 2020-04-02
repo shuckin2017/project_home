@@ -5,400 +5,42 @@
   src: url("../fonts/Geometria.eot");
   src: local("☺"), url("../fonts/Geometria.woff") format("woff"), url("../fonts/Geometria.ttf") format("truetype"), url("fonts/Geometria.svg") format("svg");
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
 
 @font-face {
   font-family: 'Geometria-Medium';
   src: url("../fonts/Geometria-Medium.eot");
   src: local("☺"), url("../fonts/Geometria-Medium.woff") format("woff"), url("../fonts/Geometria-Medium.ttf") format("truetype"), url("fonts/Geometria-Medium.svg") format("svg");
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
 
 @font-face {
   font-family: 'Geometria-Bold';
   src: url("../fonts/Geometria-Bold.eot");
   src: local("☺"), url("../fonts/Geometria-Bold.woff") format("woff"), url("../fonts/Geometria-Bold.ttf") format("truetype"), url("fonts/Geometria-Bold.svg") format("svg");
   font-weight: normal;
-  font-style: normal;
-}
-
-/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
-/**
- * 1. Change the default font family in all browsers (opinionated).
- * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
- */
-html {
-  font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
-
-/**
- * Remove the margin in all browsers (opinionated).
- */
-body {
-  margin: 0;
-}
-
-/* HTML5 display definitions
-   @mixin ========================================================================= */
-article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
-  display: block;
-}
-
-/**
- * Add the correct display in IE 9-.
- */
-audio,
-canvas,
-progress,
-video {
-  display: inline-block;
-}
-
-/**
- * Add the correct display in iOS 4-7.
- */
-audio:not([controls]) {
-  display: none;
-  height: 0;
-}
-
-/**
- * Add the correct vertical alignment in Chrome, Firefox, and Opera.
- */
-progress {
-  vertical-align: baseline;
-}
-
-/**
- * Add the correct display in IE 10-.
- * 1. Add the correct display in IE.
- */
-[hidden] {
-  display: none;
-}
-
-/* Links
-   @mixin ========================================================================= */
-/**
- * 1. Remove the gray background on active links in IE 10.
- * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
- */
-a {
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
-}
-
-/**
- * Remove the outline on focused links when they are also active or hovered
- * in all browsers (opinionated).
- */
-a:active, a:hover {
-  outline-width: 0;
-}
-
-/* Text-level semantics
-   @mixin ========================================================================= */
-/**
- * 1. Remove the bottom border in Firefox 39-.
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
- */
-abbr[title] {
-  border-bottom: none;
-  text-decoration: underline;
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
-}
-
-/**
- * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
- */
-b, strong {
-  font-weight: inherit;
-}
-
-/**
- * Add the correct font weight in Chrome, Edge, and Safari.
- */
-b, strong {
-  font-weight: bolder;
-}
-
-/**
- * Add the correct font style in Android 4.3-.
- */
-dfn {
-  font-style: italic;
-}
-
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
-/**
- * Add the correct background and color in IE 9-.
- */
-mark {
-  background-color: #ff0;
-  color: #000;
-}
-
-/**
- * Add the correct font size in all browsers.
- */
-small {
-  font-size: 80%;
-}
-
-/**
- * Prevent `sub` and `sup` elements from affecting the line height in
- * all browsers.
- */
-sub, sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sub {
-  bottom: -0.25em;
-}
-
-sup {
-  top: -0.5em;
-}
-
-/* Embedded content
-   @mixin ========================================================================= */
-/**
- * Remove the border on images inside links in IE 10-.
- */
-img {
-  border-style: none;
-}
-
-/**
- * Hide the overflow in IE.
- */
-svg:not(:root) {
-  overflow: hidden;
-}
-
-/* Grouping content
-   @mixin ========================================================================= */
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-code, kbd, pre, samp {
-  font-family: monospace, monospace;
-  font-size: 1em;
-}
-
-/**
- * Add the correct margin in IE 8.
- */
-figure {
-  margin: 1em 40px;
-}
-
-/**
- * 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE.
- */
-hr {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
-  height: 0;
-  overflow: visible;
-}
-
-/* Forms
-   @mixin ========================================================================= */
-/**
- * 1. Change font properties to `inherit` in all browsers (opinionated).
- * 2. Remove the margin in Firefox and Safari.
- */
-button, input, select, textarea {
-  font: inherit;
-  margin: 0;
-}
-
-/**
- * Restore the font weight unset by the previous rule.
- */
-optgroup {
-  font-weight: bold;
-}
-
-/**
- * Show the overflow in IE.
- * 1. Show the overflow in Edge.
- */
-button, input {
-  overflow: visible;
-}
-
-/**
- * Remove the inheritance of text transform in Edge, Firefox, and IE.
- * 1. Remove the inheritance of text transform in Firefox.
- */
-button, select {
-  text-transform: none;
-}
-
-/**
- * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
- *    controls in Android 4.
- * 2. Correct the inability to style clickable types in iOS and Safari.
- */
-button, html [type="button"], [type="reset"], [type="submit"] {
-  -webkit-appearance: button;
-}
-
-/**
- * Remove the inner border and padding in Firefox.
- */
-button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
-}
-
-/**
- * Restore the focus styles unset by the previous rule.
- */
-button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
-
-/**
- * Change the border, margin, and padding in all browsers (opinionated).
- */
-fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
-}
-
-/**
- * 1. Correct the text wrapping in Edge and IE.
- * 2. Correct the color inheritance from `fieldset` elements in IE.
- * 3. Remove the padding so developers are not caught out when they zero out
- *    `fieldset` elements in all browsers.
- */
-legend {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  color: inherit;
-  display: table;
-  max-width: 100%;
-  padding: 0;
-  white-space: normal;
-}
-
-/**
- * Remove the default vertical scrollbar in IE.
- */
-textarea {
-  overflow: auto;
-}
-
-/**
- * 1. Add the correct box sizing in IE 10-.
- * 2. Remove the padding in IE 10-.
- */
-[type="checkbox"], [type="radio"] {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 0;
-}
-
-/**
- * Correct the cursor style of increment and decrement buttons in Chrome.
- */
-[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
-
-/**
- * 1. Correct the odd appearance in Chrome and Safari.
- * 2. Correct the outline style in Safari.
- */
-[type="search"] {
-  -webkit-appearance: textfield;
-  outline-offset: -2px;
-}
-
-/**
- * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
- */
-[type="search"]::-webkit-search-cancel-button, [type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-/**
- * Correct the text style of placeholders in Chrome, Edge, and Safari.
- */
-::-webkit-input-placeholder {
-  color: inherit;
-  opacity: 0.54;
-}
-
-/**
- * 1. Correct the inability to style clickable types in iOS and Safari.
- * 2. Change font properties to `inherit` in Safari.
- */
-::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  font: inherit;
-}
+  font-style: normal; }
 
 .padding-site {
-  padding: 0 375px;
-}
+  padding: 0 375px; }
 
 .wrapper {
-  max-width: 1920px;
-}
+  max-width: 1920px; }
 
 .main_nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  min-height: 80px;
-}
+  align-items: center;
+  justify-content: space-between;
+  min-height: 80px; }
 
 .main_nav-company {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
+  align-items: center;
+  justify-content: space-between; }
 
 .main_nav-logo {
   display: block;
-  padding: 0 20px 0 0;
-}
+  padding: 0 20px 0 0; }
 
 .main_nav-name {
   color: #284157;
@@ -406,61 +48,43 @@ textarea {
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
-  text-transform: uppercase;
-}
-
-.main_nav-name span {
-  font-family: "Geometria-Bold", sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.16px;
-}
+  text-transform: uppercase; }
+  .main_nav-name span {
+    font-family: "Geometria-Bold", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.16px; }
 
 .main_nav-time-mode {
   color: #284157;
   text-align: right;
-  font-family: "Geometria", sans-serif;
-}
-
-.main_nav-time-mode:after {
-  width: 18px;
-  height: 18px;
-  background-image: url("../img/icon-clock.png");
-}
-
-.main_nav-time-mode span {
-  display: block;
-  font-family: "Geometria-Bold", sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.16px;
-}
+  font-family: "Geometria", sans-serif; }
+  .main_nav-time-mode:after {
+    width: 18px;
+    height: 18px;
+    background-image: url("../img/icon-clock.png"); }
+  .main_nav-time-mode span {
+    display: block;
+    font-family: "Geometria-Bold", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.16px; }
 
 .main_nav-right-block {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
+  align-items: center;
+  justify-content: space-between; }
 
 .main_nav-phone {
   color: #284157;
   text-align: right;
   font-size: 12px;
   font-family: "Geometria", sans-serif;
-  padding: 0 30px 10px 0;
-}
-
-.main_nav-phone span {
-  display: block;
-  font-size: 15px;
-  font-family: "Geometria-Bold", sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.16px;
-}
+  padding: 0 30px 10px 0; }
+  .main_nav-phone span {
+    display: block;
+    font-size: 15px;
+    font-family: "Geometria-Bold", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.16px; }
 
 .main_nav-btn {
   width: 170px;
@@ -470,103 +94,61 @@ textarea {
   background-image: linear-gradient(-221deg, #fb2b2b 0%, #f86c26 100%);
   font-family: "Geometria-Bold", sans-serif;
   color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
+  align-items: center;
+  justify-content: center; }
 
 .main_cont {
-  position: relative;
-}
+  position: relative; }
 
 .main_header-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
+  justify-content: space-between; }
 
 .main_header {
-  color: #ffffff;
-}
-
-.main_header-title {
-  font-family: "Geometria-Bold", sans-serif;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 32px;
-  letter-spacing: 0.36px;
-  padding: 0 0 40px 0;
-}
-
-.main_header-content {
-  position: absolute;
-  top: 70px;
-}
-
-.main_header-discription {
-  width: 317px;
-  font-family: "Geometria-Medium", Helvetica, sans-serif;
-  font-size: 18px;
-  line-height: 26px;
-  padding: 0 0 40px 0;
-}
-
-.main_header-sub-title {
-  width: 150px;
-  font-family: "Geometria", sans-serif;
-  line-height: 24px;
-  font-size: 16px;
-}
-
-.main_header-banner {
-  display: block;
-  z-index: -1;
-}
+  color: #ffffff; }
+  .main_header-title {
+    font-family: "Geometria-Bold", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    padding: 0 0 40px 0; }
+  .main_header-content {
+    position: absolute;
+    top: 70px; }
+  .main_header-discription {
+    width: 317px;
+    font-family: "Geometria-Medium", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 0 0 40px 0; }
+  .main_header-sub-title {
+    width: 150px;
+    font-family: "Geometria", sans-serif;
+    line-height: 24px;
+    font-size: 16px; }
+  .main_header-banner {
+    display: block;
+    z-index: -1; }
 
 .main_header-right-block {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  min-height: 500px;
-}
-
-.main_header-right-block-bottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-}
-
-.main_header-right-block-bottom-list {
-  font-size: 14px;
-  width: 125px;
-  text-align: left;
-  font-weight: 500;
-  font-family: "Geometria-Medium", Helvetica, sans-serif;
-  padding: 0 100px 0 0;
-}
-
-.main_header-right-block-bottom-list span {
-  font-family: "Geometria-Bold", sans-serif;
-  padding: 10px 0 0 0;
-  display: block;
-}
-
-.main_header-right-block-bottom-list:nth-child(3) {
-  padding: 0;
-}
-/*# sourceMappingURL=style.css.map */
+  flex-direction: column;
+  min-height: 500px; }
+  .main_header-right-block-bottom {
+    display: flex;
+    align-self: flex-end; }
+    .main_header-right-block-bottom-list {
+      font-size: 14px;
+      width: 125px;
+      text-align: left;
+      font-weight: 500;
+      font-family: "Geometria-Medium", Helvetica, sans-serif;
+      padding: 0 100px 0 0; }
+      .main_header-right-block-bottom-list span {
+        font-family: "Geometria-Bold", sans-serif;
+        padding: 10px 0 0 0;
+        display: block; }
+      .main_header-right-block-bottom-list:nth-child(3) {
+        padding: 0; }
